@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>USULAN MUSRENA 2027</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:url("background.jpg") center center;
+background-size:cover;
+height:100vh;
+overflow:hidden;
+
+}
+
+.overlay{
+
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;
+
+background:linear-gradient(rgba(0,63,120,.80),rgba(0,34,70,.90));
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+.container{
+
+width:90%;
+max-width:900px;
+text-align:center;
+color:white;
+
+animation:fade 2s;
+
+}
+
+.logo{
+
+width:140px;
+margin-bottom:25px;
+
+}
+
+.small{
+
+font-size:20px;
+letter-spacing:3px;
+font-weight:300;
+
+}
+
+h1{
+
+font-size:58px;
+font-weight:700;
+margin-top:15px;
+margin-bottom:15px;
+line-height:70px;
+
+}
+
+.subtitle{
+
+font-size:22px;
+font-weight:300;
+line-height:36px;
+margin-bottom:50px;
+
+}
+
+.button{
+
+display:inline-block;
+
+padding:18px 45px;
+
+background:#FFD43B;
+
+color:#003B78;
+
+font-size:22px;
+font-weight:600;
+
+text-decoration:none;
+
+border-radius:60px;
+
+transition:.4s;
+
+box-shadow:0 10px 25px rgba(0,0,0,.35);
+
+}
+
+.button:hover{
+
+background:white;
+
+transform:translateY(-5px);
+
+}
+
+.footer{
+
+position:absolute;
+
+bottom:20px;
+
+width:100%;
+
+text-align:center;
+
+color:white;
+
+font-size:14px;
+
+opacity:.8;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.logo{
+
+width:90px;
+
+}
+
+.small{
+
+font-size:14px;
+
+}
+
+h1{
+
+font-size:36px;
+line-height:48px;
+
+}
+
+.subtitle{
+
+font-size:17px;
+line-height:28px;
+
+}
+
+.button{
+
+font-size:18px;
+
+padding:15px 30px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="overlay">
+
+<div class="container">
+
+<img src="images/logo_bna.png" width="300" height="200" class="logo">
+
+<div class="small">
+PEMERINTAH KOTA BANDA ACEH
+</div>
+
+<h1>
+USULAN MUSRENA<br>
+TAHUN 2027
+</h1>
+
+<div class="subtitle">
+
+Platform Informasi Geospasial dan Dashboard Monitoring<br>
+
+Usulan Musyawarah Rencana Aksi Perempuan<br>
+
+</div>
+
+<a href="menu.html" class="button">
+
+MASUK KE PETA
+
+</a>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+� 2026 Pemerintah Kota Banda Aceh � Badan Perencanaan dan Pembangunan Daerah
+
+</div>
+
+</body>
+</html>
